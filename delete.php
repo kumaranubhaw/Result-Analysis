@@ -22,6 +22,8 @@ die('Error:'.mysql_error());
 echo "Deletion Success";
 mysql_close($con);
 ?>
+
+
 <hr>
 	<form action="deletion.html" method="post">
 	<input type="submit" value="conform" />
